@@ -3,3 +3,5 @@
 x = int(input("Please type a whole number: "))
 
 print (str(x+6) + ", I added six to your number!")
+
+input()
