@@ -23,7 +23,7 @@ elif ((a**2) + (b**2) < (c**2)):
 elif ((a**2) + (b**2) > (c**2)):
     print ("This is an acute triangle!")
 else:
-    print("Something went wrong! Yell at gavin to fix his code!")
+    print("Something went wrong! Please use numbers only~")
     
 #Final Values (Not implemented)
 """
