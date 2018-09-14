@@ -1,8 +1,8 @@
+#Greeting
 name = input("What is your name? ")
 print ("Hello " + name + ", you are now cleared for triangle inspection.")
 
 #Legs of triangle
-
 a = float(input("Value for leg one (a): "))
 b = float(input("Value for leg two (b): "))
 c = ((a**2)+(b**2))**(1/2)
@@ -13,7 +13,6 @@ print("b^2 = " + str(b**2))
 print("c^2 = " + str(c**2)) 
 
 #Triangle check
-
 if (a + b < c):
     print ("This is not a triangle!")
 elif ((a**2) + (b**2) == (c**2)):

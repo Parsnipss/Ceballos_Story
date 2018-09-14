@@ -13,6 +13,7 @@ b. We will use these to compute the length of the hypotenuse: c. (3 points)
 
 a = float(input("Value for leg one (a): "))
 b = float(input("Value for leg two (b): "))
+c = ((a**2)+(b**2))**(1/2)
 
 """
 Compute the length of the hypotenuse and then return the result in a print statement.
@@ -22,4 +23,5 @@ Compute the length of the hypotenuse and then return the result in a print state
 
 print("a^2 = " + str(a**2))
 print("b^2 = " + str(b**2))
-print("The hypotenuse (c) is equal to: " + str(((a**2)+(b**2))**(1/2)))
+print("c^2 = " + str(c**2))
+print("The hypotenuse (c) is equal to: " + str(c))
