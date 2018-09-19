@@ -35,6 +35,6 @@ for i in range(1000):
         
 print ("There were " + str(even) + " even numbers.")
 print ("Conversly. there were " + str(1000-even) + " odd numbers.")
-print ("If this number --> " + str(even + (1000-even)) + " <--- is not 1000, you do not exist within reality.")
+print ("If this number ---> " + str(even + (1000-even)) + " <--- is not 1000, you do not exist within reality.")
 
 # 5. ADD all the evens and tell how many
